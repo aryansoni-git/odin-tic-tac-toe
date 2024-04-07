@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" href="/static/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/button.css">
+</head>
+
+<body>
+    <header>
+        <h1>TIC</h1>
+        <h1>TIC</h1>
+        <h1>TOE</h1>
+    </header>
+    <main>
+        <p class="result disabled"></p>
+        <p class="turn-para">Player <span id="turn">'X'</span> turn</p>
+        <div>
+            <button data-index="0"></button>
+            <button data-index="1"></button>
+            <button data-index="2"></button>
+            <button data-index="3"></button>
+            <button data-index="4"></button>
+            <button data-index="5"></button>
+            <button data-index="6"></button>
+            <button data-index="7"></button>
+            <button data-index="8"></button>
+        </div>
+        <button id="restart">Restart Game</button>
+    </main>
+    <footer>
+        Copyright <span>&copy;</span> aryansoni
+        <script defer>document.write(new Date().getFullYear());</script>
+        <a href="https://github.com/aryansoni-git" target="_blank" rel="noopener noreferrer">
+            <img src="../static/img/github-original.svg" alt="aryansoni-git">
+        </a>
+    </footer>
+
+    <script src="../static/js/script.js"></script>
+
+</body>
+
+</html>

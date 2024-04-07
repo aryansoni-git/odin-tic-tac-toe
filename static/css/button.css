@@ -1,0 +1,70 @@
+/* BUTTON CONTAINER */
+main div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 320px;
+}
+
+/*BUTTON */
+main div button {
+    background: transparent;
+    color: #333;
+    font-size: 2.6rem;
+    font-weight: 600;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: transform 0.2s ease-in-out;
+}
+
+main div button:hover {
+    border-radius: 5px;
+    transform: scale(1.015);
+    box-shadow: 0px 2px 5px 0px #333;
+}
+
+/* TOP ROW */
+button[data-index="0"],
+button[data-index="1"],
+button[data-index="2"] {
+    border-top: none;
+}
+
+/* LEFT COLUMN */
+button[data-index="0"],
+button[data-index="3"],
+button[data-index="6"] {
+    border-left: none;
+}
+
+/* RIGHT COLUMN */
+button[data-index="2"],
+button[data-index="5"],
+button[data-index="8"] {
+    border-right: none;
+}
+
+/* BOTTOM ROW */
+button[data-index="6"],
+button[data-index="7"],
+button[data-index="8"] {
+    border-bottom: none;
+}
+
+/* RESTART BUTTON */
+#restart {
+    background-color: #20221F;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#restart:hover {
+    transform: scale(1.015);
+    box-shadow: 0px 2px 5px 0px #333;
+}

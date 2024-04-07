@@ -1,0 +1,111 @@
+/* FONT COLLECTION */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* RESET DEFAULT */
+*,
+*::before,
+*::after {
+    font-family: "Space Mono", monospace, sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+/* VAIRABLES */
+:root {
+    --primary-white: #FFFFFF;
+    --primary-black: #20221F;
+    --primary-creamy: #F5F4EE;
+    --primary-pink: #E5D6D4;
+}
+
+/* BODY */
+body {
+    background-color: var(--primary-creamy);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 5px;
+}
+
+header h1 {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    padding: 0px 20px;
+}
+
+/* MAIN */
+main {
+    background-color: var(--primary-pink);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 10px 0px;
+    gap: 40px;
+    border: 0.5px solid black;
+
+}
+
+/* RESULT & PLAYER TURN STATUS */
+main p {
+    background-color: var(--primary-creamy);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+main p span {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    font-weight: 600;
+    padding: 0px 10px;
+    font-size: 1.5rem;
+}
+
+/* FOR: RESULT & TURN STATUS */
+.disabled {
+    display: none;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    width: 100%;
+    gap: 6px;
+    font-weight: 600;
+}
+
+footer span {
+    font-family: sans-serif;
+}
+
+footer a,
+footer a img {
+    height: 22px;
+    width: 22px;
+    transition: transform 0.5s ease-in-out;
+}
+
+footer a img:hover {
+    transform: scale(1.1) rotate(360deg);
+}
