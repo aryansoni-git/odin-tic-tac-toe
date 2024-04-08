@@ -1,8 +1,8 @@
 # ⭕ Tic-Tac-Toe ❌
 
-![cover](./static/img/cover.png)
+![cover](./img/cover.png)
 
-You can try the Library app live [here]()! 🌐
+You can try the Library app live [https://aryansoni-git.github.io/odin-tic-tac-toe/]()! 🌐
 
 ## Description
 
