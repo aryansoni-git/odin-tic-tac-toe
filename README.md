@@ -2,7 +2,7 @@
 
 ![cover](./img/cover.png)
 
-You can try the Library app live [https://aryansoni-git.github.io/odin-tic-tac-toe/]()! 🌐
+You can try the Tic-Tac-Toe game live [here](https://aryansoni-git.github.io/odin-tic-tac-toe/)! 🌐
 
 ## Description
 
@@ -19,10 +19,10 @@ This project, developed as part of "The Odin Project" JavaScript course, is a si
 | [Contributing](#contributing) |
 | [Contact](#contact)  |
 | [Acknowledgements](#acknowledgements) |
-| [Future Enhancements](#future-enhancements) | 📝
+| [Future Enhancements](#future-enhancements) |
 
 
-## Features ⚡
+## Features
 
 - Responsive and intuitive user interface.
 - Dynamic updating of game status and player turns.
@@ -31,7 +31,7 @@ This project, developed as part of "The Odin Project" JavaScript course, is a si
 - Clear indication of game outcomes, including wins and draws.
 
 
-## How to Use 📝
+## How to Use
 
 1. Players take turns clicking on the empty squares of the grid to place their markers.
 2. The first player to align three of their markers horizontally, vertically, or diagonally wins the game.
@@ -39,7 +39,7 @@ This project, developed as part of "The Odin Project" JavaScript course, is a si
 4. Click the "Restart Game" button to start a new game at any time.
 
 
-## Installation 👨‍🔧
+## Installation
 
 There's no need for installation. Simply download or clone the repository to your local machine and open the `index.html` file in a web browser.
 
@@ -52,7 +52,7 @@ git clone https://github.com/aryansoni-git/odin-tic-tac-toe
 cd odin-tic-tac-toe
 ```
 
-## Contributing 🤝
+## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
@@ -63,7 +63,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Push to the branch (`git push origin feature/new-feature`).
 6. Create a new Pull Request. 
 
-## Contact 👨‍💻
+## Contact
 
 If you have any questions or suggestions regarding this repository, Feel free to connect with me on any of the platforms listed below. I'm excited to hear from you and chat about all things tech!
 
@@ -75,11 +75,11 @@ If you have any questions or suggestions regarding this repository, Feel free to
 | LinkedIn | [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="50" height="50">](https://www.linkedin.com/in/aryansoni-work) |
 | Instagram | [aryansoni.ig](https://www.instagram.com/aryansoni.ig/) |
 
-## Acknowledgements 👏
+## Acknowledgements
 
 - Special thanks to [The Odin Project](https://www.theodinproject.com/) for providing the educational resources and project idea that inspired this library project.
 - Thanks to [Google Fonts](https://fonts.google.com/specimen/Space+Mono?query=space+mono) for providing the Poppins font, which was used in this project.
 
-## Future Enhancements 📌
+## Future Enhancements
 
 One potential future enhancement for this project is to implement an AI mode, allowing players to play against the computer. This would involve integrating AI logic using algorithms such as minimax or alpha-beta pruning to provide a challenging single-player experience.
